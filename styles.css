@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 255, 82);
+  font-family: cursive;
+}
+form {
+  width: auto;
+  max-width: 450px;
+  height: fit-content;
+  background-color: #fff;
+  box-shadow: 0 2px 5px #dedede;
+  border-radius: 10px;
+  padding: 2.5rem 1.5rem;
+}
+p {
+  text-align: right;
+  color: rgb(199, 83, 11);
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+input {
+  margin: 0 auto;
+  display: block;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  border: solid rgb(199, 83, 11) 3px;
+  font-family: inherit;
+}
+input::placeholder {
+  color: grey;
+  opacity: 0.5;
+}
+button {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  background-color: rgb(199, 83, 11);
+  font-family: inherit;
+  font-size: 1.25rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem;
+}
+.red {
+  color: red;
+}
